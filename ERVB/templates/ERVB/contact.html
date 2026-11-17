@@ -1,0 +1,74 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | The Spice Route</title>
+    <link rel="stylesheet" href="{% static 'ERVB/style.css' %}">
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="logo">THE SPICE ROUTE</div>
+
+    <div class="nav-links">
+        <a href="/">Home</a>
+        <a href="/menu/">Menu</a>
+        <a href="/administration/">Administration</a>
+        <a href="/contact/">Contact Us</a>
+    </div>
+</nav>
+
+<header class="menu-header">
+    <h1>Contact Us</h1>
+    <p>We would love to hear from you!</p>
+</header>
+
+<section class="contact-container">
+
+    <div class="contact-info">
+        <h2>Get In Touch</h2>
+
+        <p><strong>Address:</strong></p>
+        <p>123 Anna Nagar, Chennai, Tamil Nadu</p>
+
+        <p><strong>Phone:</strong></p>
+        <p>+91 98765 43210</p>
+
+        <p><strong>Email:</strong></p>
+        <p>contact@thespiceroute.com</p>
+
+        <h2>Opening Hours</h2>
+        <p>Monday - Friday: 10 AM - 10 PM</p>
+        <p>Saturday - Sunday: 9 AM - 11 PM</p>
+    </div>
+
+    <div class="contact-form">
+        <h2>Send Us a Message</h2>
+
+        <form>
+            <label>Your Name</label>
+            <input type="text" placeholder="Enter your name" required>
+
+            <label>Your Email</label>
+            <input type="email" placeholder="Enter your email" required>
+
+            <label>Phone Number</label>
+            <input type="tel" placeholder="Enter phone number">
+
+            <label>Your Message</label>
+            <textarea rows="5" placeholder="Write your message"></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2026 The Spice Route | Designed by Vidhya</p>
+</footer>
+
+</body>
+</html>
